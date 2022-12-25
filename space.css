@@ -1,0 +1,99 @@
+
+body{
+    background-size: auto;
+    background-repeat:no-repeat;
+    background-image: url(https://images.pexels.com/photos/4175070/pexels-photo-4175070.jpeg?cs=srgb&dl=pexels-anni-roenkae-4175070.jpg&fm=jpg);
+}
+h1{
+    font-size: 50px;
+    font-weight:bolder;
+    font-family: 'Merriweather', serif;
+    text-align: center;
+}
+.username, .user{
+    margin-bottom: 7px;
+}
+.password, .pass{
+    margin-bottom: 7px;
+}
+p{
+    font-family: 'Ubuntu', sans-serif;
+    font-weight: bold;
+    font-size: 17px;
+    margin-top:50px;
+    margin-left:30px;
+}
+input:hover {
+    outline: none;
+  }
+input{ 
+    left: 0;
+    outline: none;
+    border-bottom: 2px solid grey;
+    background-color: white;
+    margin-left:30px;
+    font-size:20px;
+    height:40px;
+    width:300px;
+    border:none;
+    display:block;
+}
+.signup{
+    background-color: white;
+    border-radius: 30px;
+    align-content: center;
+    position: absolute;
+    top:0;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    margin: auto;
+    border: solid 1px white;
+    width: 370px;
+    height:600px;
+}
+.forgot{
+    font-family: 'Ubuntu', sans-serif;
+    font-weight: bolder;
+    text-decoration: none;
+    color:black;
+    margin-top: 20px;
+    margin-right: 20px;
+    float: right;
+}
+.forgot:hover{
+    color:rgb(52, 52, 188);
+}
+button{
+    border:1px solid white;
+    cursor: pointer;
+    border-radius: 6px;
+    width:100px;
+    margin-left: 25px;
+    margin-top: 10px;
+    height: 40px;
+    background-color: rgb(52, 52, 188);
+}
+button:hover{
+    background-color: rgba(4, 138, 255, 0.43);
+}
+.password{
+    margin-top: 30px;
+}
+.options{
+    margin-right: 40px;
+    text-align: center;
+}
+
+.twimg,.fbimg, .gmimg{
+    border-color: black;
+    margin-inline: -30px;
+    margin-left: 60px;
+    display:inline-flex;
+    border-radius: 9px;
+    height:50px;
+}
+.twimg:hover{
+    text-decoration-color: rgba(220, 19, 223, 0.468);
+    text-decoration: underline;
+}
